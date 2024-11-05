@@ -1,22 +1,22 @@
 import React, { useState } from "react";
 const faqs = [
   {
-    question: "What factors determine the pricing of SEO services?",
+    question: "É possível usar múltiplos números de WhatsApp?",
     answer:
       "However, link building isn't merely about quantity; quality and relevance are paramount. High-quality links from reputable websites carry more weight in search engine algorithms, contributing significantly to a website's overall SEO performance.",
   },
   {
-    question: "What factors determine the pricing of SEO services?",
+    question: "Como posso conectar meu WhatsApp à plataforma?",
     answer:
       "However, link building isn't merely about quantity; quality and relevance are paramount. High-quality links from reputable websites carry more weight in search engine algorithms, contributing significantly to a website's overall SEO performance.",
   },
   {
-    question: "What factors determine the pricing of SEO services?",
+    question: "Quantos atendentes posso cadastrar na plataforma?",
     answer:
       "However, link building isn't merely about quantity; quality and relevance are paramount. High-quality links from reputable websites carry more weight in search engine algorithms, contributing significantly to a website's overall SEO performance.",
   },
   {
-    question: "What factors determine the pricing of SEO services?",
+    question: "Posso enviar mensagens em massa pela plataforma?",
     answer:
       "However, link building isn't merely about quantity; quality and relevance are paramount. High-quality links from reputable websites carry more weight in search engine algorithms, contributing significantly to a website's overall SEO performance.",
   },
@@ -39,18 +39,15 @@ export default function FaqTwo() {
           <div className="relative flex items-center justify-center py-10 overflow-hidden md:py-20 sm:border rounded-3xl border-white/10 sm:bg-white/5">
             <div className="max-w-[850px] w-full flex justify-center items-center flex-col relative z-10">
               <h1 className="py-0.5 px-5 bg-white/5 border-white/10 border rounded-[30px] font-medium text-white">
-                FAQs
+                Perguntas Frequentes
               </h1>
-              <h2 className="mt-5 font-semibold text-white text-24 sm:text-48">
-                Asked Questions & Answer
-              </h2>
               <div className="flex flex-col gap-2.5 w-full mt-10 sm:px-4">
                 {/* <!-- faq single start  --> */}
                 {faqs.map((faq, index) => (
                   <div
                     key={index}
                     data-aos="fade-up"
-                    className="py-2.5 cursor-pointer md:py-5 px-2 md:px-9 w-full bg-white/5 border border-white/10 rounded-[10px] h4-faq-toggler overflow-hidden transition-all duration-300 max-h-fit h-fit single_faq_bg"
+                    className="py-2.5 cursor-pointer md:py-5 px-2 md:px-9 w-full bg-white/5 border border-white/10 rounded-[10px] h4-faq-toggler overflow-hidden transition-all duration-300 max-h-fit h-fit"
                     name="faq-1"
                     onClick={() => toggleFAQ(index)}
                   >

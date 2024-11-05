@@ -22,10 +22,10 @@ export default function FooterFour() {
       {/* <!-- cta start  --> */}
       <FooterCta />
       {/* <!-- cta end  --> */}
-      <section className="bg-ai-soft">
+      <section className="bg-[#062100]">
         <div className="flex flex-wrap justify-between gap-5 mx-auto mb-20 theme-container">
           <div className="w-fit max-w-[300px]">
-            <img src="/assets/images/home-four/footer-logo.webp" alt="logo" />
+            <img className="w-40" src="/assets/images/home-four/zapye-logo.png" alt="zapye logo" />
             <p className="max-w-[300px] text-white my-6">
               SEO agencies typically work businesses of all sizes across various
               industries to help them achieve their online
@@ -286,9 +286,9 @@ export default function FooterFour() {
               className="border border-white/10 py-2.5 px-6 rounded-[28px] focus:outline-none w-full mt-5 text-white bg-main-gray/5"
             />
             <a href="#">
-              <div className="home-two-btn-bg py-3.5 group h4_contact_bg border-transparent w-fit mt-2.5">
-                <span className="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-purple font-inter">
-                  Contact US
+              <div className="home-two-btn-bg py-3.5 group bg-[#1F7EF5] border-transparent w-fit mt-2.5">
+                <span className="relative z-10 text-base font-semibold text-white transition-all duration-300 group-hover:text-[#1FEF5] font-inter">
+                  Orçamento
                 </span>
                 <svg
                   className="relative z-10"
@@ -299,7 +299,7 @@ export default function FooterFour() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    className="transition-all duration-300 group-hover:stroke-purple"
+                    className="transition-all duration-300 group-hover:stroke-[#1F7EF5]"
                     d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
                     stroke="white"
                     strokeWidth="1.5"
@@ -311,18 +311,18 @@ export default function FooterFour() {
             </a>
           </div>
         </div>
-        <div className="w-full h-[80px] md:h-[65px] bg-[#160E24]">
+        <div className="w-full h-[80px] md:h-[65px] bg-[#062100]">
           <div className="h-full mx-auto theme-container">
             <div className="flex flex-wrap items-center justify-between w-full h-full">
               <span className="text-white/50 max-w-80">
                 2024 © All rights reserved by
-                <b className="text-white">Quland</b>
+                <b className="text-white"> Zapye</b>
               </span>
               <div className="relative flex justify-center w-full sm:w-fit">
                 <a
                   aria-label="go-top"
                   href="#"
-                  className="w-[45px] h-[45px] rounded-full border-[3px] border-buisness-light-black flex justify-center items-center bg-purple absolute -top-20 sm:-top-[55px]"
+                  className="w-[45px] h-[45px] rounded-full border-[3px] border-[#1F7EF5] flex justify-center items-center bg-[#1F7EF5] absolute -top-20 sm:-top-[55px]"
                 >
                   <span>
                     <svg
